@@ -1,0 +1,8 @@
+build:
+	@go build -o bin/Bank-Web-Api
+
+run: build
+	@./bin/Bank-Web-Api
+_
+test:
+	@go test -v ./...
